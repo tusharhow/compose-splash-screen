@@ -14,7 +14,6 @@ class MainActivity : ComponentActivity() {
             SplashScreenTheme {
                 val navController = rememberNavController()
                 SetupNavGraph(navController = navController)
-
             }
         }
     }
